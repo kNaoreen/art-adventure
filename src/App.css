@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(#ab274f, #2751AB);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  color: #3a43a9;
+  background-color: white;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width: 400px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 2vh;
+}
+
+button:hover {
+  color: #252e8c;
+  background-color: #d9e1ec;
 }
