@@ -37,7 +37,9 @@
   }
 }
 
-button {
+.optionButton {
+  padding: 0;
+  text-decoration: none;
   color: #3a43a9;
   background-color: white;
   font-family: "Segoe UI", "Roboto", sans-serif;
@@ -49,7 +51,7 @@ button {
   border-radius: 2vh;
 }
 
-button:hover {
+.optionButton:hover {
   color: #252e8c;
   background-color: #d9e1ec;
 }
