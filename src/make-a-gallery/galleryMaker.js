@@ -1,12 +1,14 @@
 import React from "react";
+import "../App.css";
 
 const GalleryMaker = (props) => {
     return (
-        <div>
+        <div className={"App-header"}>
             <h1>
-                Make A Gallery
+                make a gallery
             </h1>
             <p> This is a work in progress </p>
+            <button onClick={() => console.log("I was clicked fr")}>Test</button>
         </div>
     );
 };
